@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="main">
+        <div class="placeName" id="placeName">
+            <h1 class="header" id="header">Preston, ID</h1>
+            <div>
+                <div class="header-container">
+                    <div class="placeInfo" id="placeInfo">
+                        <ol class="info" id="info"> 
+                            <li class="list-item"><b>Temp</b></li>
+                            <li class="list-item"><b>Feels Like</b></li>
+                            <li class="list-item"><b>Humidity</b></li>
+                            <li class="list-item"><b>Windspeed</b></li>
+                        </ol>
+                    </div>
+                    <div class="placeInfo">
+                        <ol class="info" id="info"> 
+                            <li class="list-item"><b><span id="temp-value"></b></span>°</li>
+                            <li class="list-item"><b><span id="feels-like-value"></b></span>°</li>
+                            <li class="list-item"><b><span id="humidity-value"></b></span>%</li>
+                            <li class="list-item"><b><span id="windspeed-value"></span> mph</b></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="five-day-forcast">
+                    <div class="five-day-forcast-title">
+                        <h1>5 Day Forcast</h1>
+                    </div>
+                    <div class="forcasts-container">
+                        <div class="forcasts">
+                            <p><b>Day 1</b></p>
+                            <p><span id="day-one-value"></span>°</p>
+                        </div>
+                        <div class="forcasts">
+                            <p><b>Day 2</b></p>
+                            <p><span id="day-two-value"></span>°</p>
+                        </div>
+                        <div class="forcasts">
+                            <p><b>Day 3</b></p>
+                            <p><span id="day-three-value"></span>°</p>
+                        </div>
+                        <div class="forcasts">
+                            <p><b>Day 4</b></p>
+                            <p><span id="day-four-value"></span>°</p>
+                        </div>
+                        <div class="forcasts">
+                            <p><b>Day 5</b></p>
+                            <p><span id="day-five-value"></span>°</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-container">
+                    <div class="news-title">
+                        <h1><b>NEWS</b></h1>
+                    </div>
+                    <div class="image-container">
+                        <img src="image.jpg" alt="">
+                    </div>
+                    <p class="news-text">The titan submarine was meant to go down and explore the titanics ruins but all connection to it was lost as it likely went to deep and imploded with 5 people on board the submarine.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
